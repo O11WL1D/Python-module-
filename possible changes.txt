@@ -1,0 +1,29 @@
+
+def nest(func):
+    
+    para_amount = input("how many parameters would you like to test?")
+    values = [None]*para_amount
+    for zero in range (para_amount):
+        print "please enter a value for parameter" + str(zero) 
+        values[zero] = raw_input() 
+        print values[zero] 
+    if para_amount == 1:
+       if(raw_input("would you like input to be looped? - y/n" == "y"):
+          for zero in range (int(raw_input("How many times?"))):
+              func(values[0])
+    if para_amount == 2:
+       if(raw_input("would you like input to be looped? - y/n" == "y"):
+         for zero in range (int(raw_input("How many times?"))):
+             func(values[0], values[1])
+    
+    if para_amount == 3:
+       if(raw_input("would you like input to be looped? - y/n" == "y"):
+         for zero in range (int(raw_input("How many times?"))):
+             func(values[0], values[1],values[2])
+    
+    if para_amount == 4:
+       if(raw_input("would you like input to be looped? - y/n" == "y"):
+         for zero in range (int(raw_input("How many times?"))):
+             func(values[0], values[1],values[2],values[3])
+
+#---------------------------------------------------------------------------------------------
