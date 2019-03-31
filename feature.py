@@ -4,8 +4,7 @@
 # copy and paste the first section of the module at the top of your program.
 # when pasting has commmenced, remove comments pre. 
 
-# !!-- Make sure to import all files found in repository, this includes a.py
-
+# !- only import the feature module 
 #------------------------first section -----------------------------------------
 
 
