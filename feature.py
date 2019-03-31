@@ -4,8 +4,7 @@
 # copy and paste the first section of the module at the top of your program.
 # when pasting has commmenced, remove comments pre. 
 
-
-
+# !!-- Make sure to import all files found in repository, this includes a.py
 
 #------------------------first section -----------------------------------------
 
@@ -55,6 +54,7 @@ def assign(x,y,val):
 
 
 def command(x):
+    import a
     #if y = erase : erase command file- 
     open("a.py", "w").close()
     #erases file for new command.
