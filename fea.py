@@ -4,7 +4,7 @@
 # copy and paste the first section of the module at the top of your program.
 # when pasting has commmenced, remove comments pre. 
 
-# !- only import the feature module 
+# !- make sure to import both a.py and fea.py
 #------------------------first section -----------------------------------------
 
 
@@ -53,7 +53,6 @@ def assign(x,y,val):
 
 
 def command(x):
-    import a
     #if y = erase : erase command file- 
     open("a.py", "w").close()
     #erases file for new command.
